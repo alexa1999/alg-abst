@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1566876419 source:d:\algb\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<string>
+	<sstream>
+
