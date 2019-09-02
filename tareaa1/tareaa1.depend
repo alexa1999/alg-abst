@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1567411950 source:d:\anel\abstracta\tareaa1\main.cpp
+1567450921 source:d:\anel\abstracta\tareaa1\main.cpp
 	<iostream>
 	"Sumi.h"
 
-1567411903 source:d:\anel\abstracta\tareaa1\src\sumi.cpp
+1567453382 source:d:\anel\abstracta\tareaa1\src\sumi.cpp
 	"Sumi.h"
 
 1567411903 d:\anel\abstracta\tareaa1\include\sumi.h
