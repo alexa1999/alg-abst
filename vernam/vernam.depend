@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1569198124 source:d:\anel\abstracta\vernam\main.cpp
+	<iostream>
+	<math.h>
+	<bitset>
+	"Vernam.h"
+
+1569197418 source:d:\anel\abstracta\vernam\src\vernam.cpp
+	"Vernam.h"
+
+1569197418 d:\anel\abstracta\vernam\include\vernam.h
+	<iostream>
+	<string>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<vector>
+	<bits/stdc++.h>
+	<ctype.h>
+	<math.h>
+	<bitset>
+
