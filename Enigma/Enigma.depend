@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1569210230 source:d:\anel\abstracta\enigma\main.cpp
+	<iostream>
+	<stack>
+	<string>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Enigma.h"
+
+1569210818 source:d:\anel\abstracta\enigma\src\enigma.cpp
+	"Enigma.h"
+
+1568656842 d:\anel\abstracta\enigma\include\enigma.h
+	<iostream>
+	<string>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<vector>
+	<bits/stdc++.h>
+	<ctype.h>
+	<math.h>
+	<bitset>
+
