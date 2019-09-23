@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1568050884 source:d:\anel\abstracta\citala\main.cpp
+	<iostream>
+	<Citala.h>
+
+1568050933 source:d:\anel\abstracta\citala\src\citala.cpp
+	"Citala.h"
+
+1568045157 d:\anel\abstracta\citala\include\citala.h
+	<iostream>
+	<string>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<vector>
+	<bits/stdc++.h>
+	<ctype.h>
+	<math.h>
+	<bitset>
+
