@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1570442862 source:d:\anel\abstracta\protocolo\main.cpp
+	<iostream>
+	"Enigma.h"
+	"protocolo.h"
+	<string>
+	<cstdlib>
+	<fstream>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<vector>
+	<bits/stdc++.h>
+	<ctype.h>
+	<math.h>
+	<bitset>
+
+1570426771 source:d:\anel\abstracta\protocolo\src\affin.cpp
+	"Affin.h"
+
+1570441536 d:\anel\abstracta\protocolo\include\affin.h
+	<iostream>
+	<string>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<vector>
+	<bits/stdc++.h>
+	<ctype.h>
+	<math.h>
+	<bitset>
+
+1570433468 source:d:\anel\abstracta\protocolo\src\citala.cpp
+	"Citala.h"
+
+1570441536 d:\anel\abstracta\protocolo\include\citala.h
+	<iostream>
+	<string>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<vector>
+	<bits/stdc++.h>
+	<ctype.h>
+	<math.h>
+	<bitset>
+
+1570426930 source:d:\anel\abstracta\protocolo\src\sumi.cpp
+	"Sumi.h"
+
+1570434322 d:\anel\abstracta\protocolo\include\sumi.h
+	<iostream>
+	<string>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1570430601 source:d:\anel\abstracta\protocolo\src\enigma.cpp
+	"Enigma.h"
+
+1570441536 d:\anel\abstracta\protocolo\include\enigma.h
+	<iostream>
+	<string>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<vector>
+	<bits/stdc++.h>
+	<ctype.h>
+	<math.h>
+	<bitset>
+
+1570444246 source:d:\anel\abstracta\protocolo\src\protocolo.cpp
+	"protocolo.h"
+
+1570441536 d:\anel\abstracta\protocolo\include\protocolo.h
+	"Affin.h"
+	"Citala.h"
+	"Enigma.h"
+	"Sumi.h"
+
