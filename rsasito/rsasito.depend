@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1570426770 source:d:\anel\abstracta\rsasito\main.cpp
+	"RSA.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<NTL/ZZ.h>
+
+1570459542 d:\anel\abstracta\rsasito\include\rsa.h
+	<NTL/ZZ.h>
+	<iostream>
+	<vector>
+	<sstream>
+
+1570459542 source:d:\anel\abstracta\rsasito\src\rsa.cpp
+	"RSA.h"
+	<fstream>
+
