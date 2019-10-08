@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1570423430 source:d:\anel\abstracta\affinsito\main.cpp
+	"Affin.h"
+	<iostream>
+	<vector>
+	<string>
+	<windows.h>
+	<sstream>
+	<fstream>
+	<time.h>
+	<bitset>
+	<stdlib.h>
+	<math.h>
+	<conio.h>
+	<NTL/ZZ.h>
+	<thread>
+	<mutex>
+
+1569871100 d:\anel\abstracta\affinsito\include\affin.h
+	<iostream>
+	<string>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<vector>
+	<bits/stdc++.h>
+	<ctype.h>
+	<math.h>
+	<bitset>
+
+1569823958 source:d:\anel\abstracta\affinsito\src\affin.cpp
+	"Affin.h"
+
