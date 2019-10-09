@@ -95,9 +95,9 @@ string Enigma::Encriptar(string mensaje)
     b=alfabeto.find(clave[1]);
     c=alfabeto.find(clave[2]);
 
-    clave1=modulo1(a,alfabeto.size());
-    clave2=modulo1(b,alfabeto.size());
-    clave3=modulo1(c,alfabeto.size());
+    clave1=modulo(a,alfabeto.size());
+    clave2=modulo(b,alfabeto.size());
+    clave3=modulo(c,alfabeto.size());
 
     string posalf=posicionar(clave3,alfabeto);
     string posalf1=posicionar(clave2,alfabeto);
@@ -108,20 +108,20 @@ string Enigma::Encriptar(string mensaje)
         {
 
             c++;
-            clave3=modulo1(c,alfabeto.size());
+            clave3=modulo(c,alfabeto.size());
             posalf=posicionar(clave3,alfabeto);
 
             if(i>=8)
             {
                 b++;
-                clave2=modulo1(b,alfabeto.size());
+                clave2=modulo(b,alfabeto.size());
                 posalf1=posicionar(clave2,alfabeto);
 
 
                 if(i>=12)
                 {
                     a++;
-                    clave1=modulo1(a,alfabeto.size());
+                    clave1=modulo(a,alfabeto.size());
                     posalf2=posicionar(clave1,alfabeto);
                 }
             }
@@ -129,7 +129,7 @@ string Enigma::Encriptar(string mensaje)
         cout<<"posalf"<< posalf<<endl;
         pos=posalf.find(mensaje[i]);//busca la pos de la letra
         cout<<"pos: "<<pos<<endl;
-        letra=alfabeto3[pos];
+        letra=alfabeto1[pos];
         cout<<"letra: "<<letra<<endl;
             cout<<endl;
            //posalf=posicionar(clave3,alfabeto);//clave  g
@@ -146,7 +146,7 @@ string Enigma::Encriptar(string mensaje)
            cout<<posalf1<<endl;
            pos3=posalf2.find(letra);
            cout<<"pos3: "<<pos3<<endl;
-           letra=alfabeto1[pos3];
+           letra=alfabeto3[pos3];
 
            cout<<"letra: "<<letra<<endl;
             cout<<endl;
@@ -176,9 +176,9 @@ string Enigma::Descencriptar(string mensaje)
     b=alfabeto.find(clave[1]);
     c=alfabeto.find(clave[2]);
 
-    clave1=modulo1(a,alfabeto.size());
-    clave2=modulo1(b,alfabeto.size());
-    clave3=modulo1(c,alfabeto.size());
+    clave1=modulo(a,alfabeto.size());
+    clave2=modulo(b,alfabeto.size());
+    clave3=modulo(c,alfabeto.size());
 
     string posalf=posicionar(clave3,alfabeto);
     string posalf1=posicionar(clave2,alfabeto);
@@ -189,25 +189,25 @@ string Enigma::Descencriptar(string mensaje)
         {
 
             c++;
-            clave3=modulo1(c,alfabeto.size());
+            clave3=modulo(c,alfabeto.size());
             posalf=posicionar(clave3,alfabeto);
 
             if(i>=8)
             {
                 b++;
-                clave2=modulo1(b,alfabeto.size());
+                clave2=modulo(b,alfabeto.size());
                 posalf1=posicionar(clave2,alfabeto);
 
 
                 if(i>=12)
                 {
                     a++;
-                    clave1=modulo1(a,alfabeto.size());
+                    clave1=modulo(a,alfabeto.size());
                     posalf2=posicionar(clave1,alfabeto);
                 }
             }
         }
-        pos=alfabeto1.find(mensaje[i]);//busca la pos de la letra
+        pos=alfabeto3.find(mensaje[i]);//busca la pos de la letra
         cout<<"pos: "<<pos<<endl;
         letra=posalf2[pos];
         cout<<"letra: "<<letra<<endl;
@@ -224,7 +224,7 @@ string Enigma::Descencriptar(string mensaje)
            //posalf1=posicionar(clave2,alfabeto);
            cout<<"dosss"<<endl;
            cout<<posalf1<<endl;
-           pos3=alfabeto3.find(letra);
+           pos3=alfabeto1.find(letra);
            cout<<"pos3: "<<pos3<<endl;
            letra=posalf[pos3];
 
@@ -242,3 +242,4 @@ string Enigma::Descencriptar(string mensaje)
    cout<<cifradoo<<endl;
    return cifradoo;
 }
+
