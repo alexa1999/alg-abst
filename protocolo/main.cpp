@@ -110,24 +110,18 @@ int main()
     cout<<"r1  "<<unitito<<endl;
 
 
-
-    string dos;
-    ifstream archivo_entra("c.txt");
-
+    /////////////////////////
+    ifstream file("c.txt");
 
 
-    int contador = 0;
-    int max=1;
+    string linea, archivitito;
+	while(getline(file, linea))
+		archivitito += linea;
+	cout << archivitito;
 
-    while(getline(archivo_entra, dos)) {
-
-            if(max == contador) {
-
-            }
-
-            contador++;
-    }
-    int dosito=13;
+    string dosdos=archivitito.substr(uno.size());
+    cout<<"DOSDOS: "<<dosdos<<endl;
+    int dosito=String_to_Int(dosdos);
     cout<<"r1  "<<dosito<<endl;
 
     ifstream archi;
@@ -140,24 +134,31 @@ int main()
     string cla1;
     archiv.open("e.txt");
     getline(archiv, cla1);
+
     int claveee1=String_to_Int(cla1);
     cout<<"r1"<<claveee1<<endl;
 
-    string cla2;
-    ifstream aaaaaaa("e.txt");
-    int contadorr = 0;
-    int maxx=2;
+    ifstream fileee("e.txt");
 
-    while(getline(aaaaaaa, cla2)) {
 
-            if(maxx == contadorr) {
+    string linea1, archivititote;
+	while(getline(fileee, linea1))
+		archivititote += linea1;
+	cout << archivititote;
+    cout<<"anaammsj "<<cla1.size()<<endl;
+	string linea11=archivititote.substr(cla1.size());
+    cout<<"SEGUNDONUMERO: "<<linea11<<endl;
+    int claveee2=String_to_Int(linea11);
+    cout<<"claveee2: "<<claveee2<<endl;
 
-            }
 
-            contador++;
-    }
-    string mensaj="nevc";
-    int claveee2=4;
+    ifstream ficheroteee;
+    ficheroteee.open("mensaje.txt");
+    string mensaj;
+    getline(ficheroteee, mensaj);
+    ficheroteee.close();
+    
+
     cout<<"r1   "<<claveee2<<endl;
     protocolo abb(r1,clavechi,unitito,dosito,claveeee,claveee1,claveee2);
     string desee=abb.Descencriptar(mensaj);
